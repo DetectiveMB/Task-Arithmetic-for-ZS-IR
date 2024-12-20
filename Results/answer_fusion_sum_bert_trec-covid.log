@@ -1,0 +1,291 @@
+2024-11-28 10:55:35,708 beir.datasets.data_loader INFO Loading Corpus...
+2024-11-28 10:55:36,913 beir.datasets.data_loader INFO Loaded 171332 TEST Documents.
+2024-11-28 10:55:36,918 beir.datasets.data_loader INFO Doc Example: {'text': 'OBJECTIVE: This retrospective chart review describes the epidemiology and clinical features of 40 patients with culture-proven Mycoplasma pneumoniae infections at King Abdulaziz University Hospital, Jeddah, Saudi Arabia. METHODS: Patients with positive M. pneumoniae cultures from respiratory specimens from January 1997 through December 1998 were identified through the Microbiology records. Charts of patients were reviewed. RESULTS: 40 patients were identified, 33 (82.5%) of whom required admission. Most infections (92.5%) were community-acquired. The infection affected all age groups but was most common in infants (32.5%) and pre-school children (22.5%). It occurred year-round but was most common in the fall (35%) and spring (30%). More than three-quarters of patients (77.5%) had comorbidities. Twenty-four isolates (60%) were associated with pneumonia, 14 (35%) with upper respiratory tract infections, and 2 (5%) with bronchiolitis. Cough (82.5%), fever (75%), and malaise (58.8%) were the most common symptoms, and crepitations (60%), and wheezes (40%) were the most common signs. Most patients with pneumonia had crepitations (79.2%) but only 25% had bronchial breathing. Immunocompromised patients were more likely than non-immunocompromised patients to present with pneumonia (8/9 versus 16/31, P = 0.05). Of the 24 patients with pneumonia, 14 (58.3%) had uneventful recovery, 4 (16.7%) recovered following some complications, 3 (12.5%) died because of M pneumoniae infection, and 3 (12.5%) died due to underlying comorbidities. The 3 patients who died of M pneumoniae pneumonia had other comorbidities. CONCLUSION: our results were similar to published data except for the finding that infections were more common in infants and preschool children and that the mortality rate of pneumonia in patients with comorbidities was high.', 'title': 'Clinical features of culture-proven Mycoplasma pneumoniae infections at King Abdulaziz University Hospital, Jeddah, Saudi Arabia'}
+2024-11-28 10:55:36,918 beir.datasets.data_loader INFO Loading Queries...
+2024-11-28 10:55:36,957 beir.datasets.data_loader INFO Loaded 50 TEST Queries.
+2024-11-28 10:55:36,957 beir.datasets.data_loader INFO Query Example: what is the origin of COVID-19
+2024-11-28 10:55:36,957 root INFO Activating Elasticsearch....
+2024-11-28 10:55:36,957 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 10:55:36,958 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 10:55:39,190 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 10:57:44,912 beir.datasets.data_loader INFO Loading Corpus...
+2024-11-28 10:57:46,116 beir.datasets.data_loader INFO Loaded 171332 TEST Documents.
+2024-11-28 10:57:46,122 beir.datasets.data_loader INFO Doc Example: {'text': 'OBJECTIVE: This retrospective chart review describes the epidemiology and clinical features of 40 patients with culture-proven Mycoplasma pneumoniae infections at King Abdulaziz University Hospital, Jeddah, Saudi Arabia. METHODS: Patients with positive M. pneumoniae cultures from respiratory specimens from January 1997 through December 1998 were identified through the Microbiology records. Charts of patients were reviewed. RESULTS: 40 patients were identified, 33 (82.5%) of whom required admission. Most infections (92.5%) were community-acquired. The infection affected all age groups but was most common in infants (32.5%) and pre-school children (22.5%). It occurred year-round but was most common in the fall (35%) and spring (30%). More than three-quarters of patients (77.5%) had comorbidities. Twenty-four isolates (60%) were associated with pneumonia, 14 (35%) with upper respiratory tract infections, and 2 (5%) with bronchiolitis. Cough (82.5%), fever (75%), and malaise (58.8%) were the most common symptoms, and crepitations (60%), and wheezes (40%) were the most common signs. Most patients with pneumonia had crepitations (79.2%) but only 25% had bronchial breathing. Immunocompromised patients were more likely than non-immunocompromised patients to present with pneumonia (8/9 versus 16/31, P = 0.05). Of the 24 patients with pneumonia, 14 (58.3%) had uneventful recovery, 4 (16.7%) recovered following some complications, 3 (12.5%) died because of M pneumoniae infection, and 3 (12.5%) died due to underlying comorbidities. The 3 patients who died of M pneumoniae pneumonia had other comorbidities. CONCLUSION: our results were similar to published data except for the finding that infections were more common in infants and preschool children and that the mortality rate of pneumonia in patients with comorbidities was high.', 'title': 'Clinical features of culture-proven Mycoplasma pneumoniae infections at King Abdulaziz University Hospital, Jeddah, Saudi Arabia'}
+2024-11-28 10:57:46,122 beir.datasets.data_loader INFO Loading Queries...
+2024-11-28 10:57:46,162 beir.datasets.data_loader INFO Loaded 50 TEST Queries.
+2024-11-28 10:57:46,162 beir.datasets.data_loader INFO Query Example: what is the origin of COVID-19
+2024-11-28 10:57:46,162 root INFO Activating Elasticsearch....
+2024-11-28 10:57:46,162 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 10:57:46,163 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 10:57:48,342 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 10:57:51,152 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 10:57:51,277 root INFO Activating Elasticsearch....
+2024-11-28 10:57:51,277 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 10:57:51,277 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 10:57:53,457 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 10:58:51,653 root INFO Starting To Rerank Top-100....
+2024-11-28 10:59:01,808 root INFO Activating Elasticsearch....
+2024-11-28 10:59:01,808 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 10:59:01,808 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 10:59:04,83 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 10:59:06,477 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 10:59:06,597 root INFO Activating Elasticsearch....
+2024-11-28 10:59:06,597 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 10:59:06,598 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 10:59:08,775 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:00:07,248 root INFO Starting To Rerank Top-100....
+2024-11-28 11:00:13,783 root INFO Activating Elasticsearch....
+2024-11-28 11:00:13,783 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:00:13,783 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:00:16,144 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:00:18,199 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:00:18,313 root INFO Activating Elasticsearch....
+2024-11-28 11:00:18,314 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:00:18,314 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:00:20,497 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:01:20,128 root INFO Starting To Rerank Top-100....
+2024-11-28 11:01:26,809 root INFO Activating Elasticsearch....
+2024-11-28 11:01:26,809 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:01:26,810 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:01:29,79 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:01:31,83 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:01:31,202 root INFO Activating Elasticsearch....
+2024-11-28 11:01:31,202 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:01:31,202 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:01:33,385 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:02:30,888 root INFO Starting To Rerank Top-100....
+2024-11-28 11:02:37,401 root INFO Activating Elasticsearch....
+2024-11-28 11:02:37,402 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:02:37,402 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:02:39,702 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:02:41,608 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:02:41,726 root INFO Activating Elasticsearch....
+2024-11-28 11:02:41,726 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:02:41,726 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:02:43,910 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:03:42,455 root INFO Starting To Rerank Top-100....
+2024-11-28 11:03:48,951 root INFO Activating Elasticsearch....
+2024-11-28 11:03:48,951 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:03:48,951 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:03:51,230 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:03:53,29 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:03:53,149 root INFO Activating Elasticsearch....
+2024-11-28 11:03:53,149 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:03:53,149 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:03:55,311 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:04:53,893 root INFO Starting To Rerank Top-100....
+2024-11-28 11:05:00,424 root INFO Activating Elasticsearch....
+2024-11-28 11:05:00,425 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:05:00,425 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:05:02,701 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:05:04,709 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:05:04,826 root INFO Activating Elasticsearch....
+2024-11-28 11:05:04,827 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:05:04,827 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:05:07,42 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:06:05,524 root INFO Starting To Rerank Top-100....
+2024-11-28 11:06:12,294 root INFO Activating Elasticsearch....
+2024-11-28 11:06:12,294 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:06:12,295 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:06:14,588 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:06:16,530 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:06:16,645 root INFO Activating Elasticsearch....
+2024-11-28 11:06:16,645 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:06:16,645 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:06:18,862 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:07:16,369 root INFO Starting To Rerank Top-100....
+2024-11-28 11:07:23,47 root INFO Activating Elasticsearch....
+2024-11-28 11:07:23,47 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:07:23,48 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:07:25,365 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:07:27,238 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:07:27,353 root INFO Activating Elasticsearch....
+2024-11-28 11:07:27,354 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:07:27,354 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:07:29,566 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:08:29,106 root INFO Starting To Rerank Top-100....
+2024-11-28 11:08:35,605 root INFO Activating Elasticsearch....
+2024-11-28 11:08:35,605 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:08:35,605 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:08:37,881 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:08:39,892 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:08:40,11 root INFO Activating Elasticsearch....
+2024-11-28 11:08:40,11 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:08:40,12 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:08:42,193 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:09:40,748 root INFO Starting To Rerank Top-100....
+2024-11-28 11:09:47,259 root INFO Activating Elasticsearch....
+2024-11-28 11:09:47,259 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:09:47,260 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:09:49,532 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:09:51,419 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:09:51,534 root INFO Activating Elasticsearch....
+2024-11-28 11:09:51,534 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:09:51,534 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 11:09:53,722 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 11:10:53,397 root INFO Starting To Rerank Top-100....
+2024-11-28 11:11:01,481 main INFO 
+#    Model                           P@1    NDCG@3  NDCG@10      Recall@100  MAP@100
+---  ----------------------------  -----  --------  ---------  ------------  ------------
+a    BM25 + MiniLM-sum-lambda-0     0.9      0.806  0.766ˡ            0.117  0.093ˡ
+b    BM25 + MiniLM-sum-lambda-0.1   0.9      0.806  0.764ˡ            0.117  0.093ˡ
+c    BM25 + MiniLM-sum-lambda-0.2   0.9      0.806  0.763ˡ            0.117  0.093ᵃˡ
+d    BM25 + MiniLM-sum-lambda-0.3   0.9      0.811  0.764ˡ            0.117  0.093ᵃᵇˡ
+e    BM25 + MiniLM-sum-lambda-0.4   0.9      0.812  0.763ˡ            0.117  0.093ᵃᵇˡ
+f    BM25 + MiniLM-sum-lambda-0.5   0.9      0.812  0.763ˡ            0.117  0.093ᵃᵇᶜᵈᵉˡ
+g    BM25 + MiniLM-sum-lambda-0.6   0.9      0.816  0.762ˡ            0.117  0.093ᵃᵇᶜᵈᵉᶠˡ
+h    BM25 + MiniLM-sum-lambda-0.7   0.9      0.816  0.762ˡ            0.117  0.093ᵃᵇᶜᵈˡ
+i    BM25 + MiniLM-sum-lambda-0.8   0.9      0.815  0.761ˡ            0.117  0.093ᵃᵇᶜᵈˡ
+j    BM25 + MiniLM-sum-lambda-0.9   0.9      0.815  0.759ˡ            0.117  0.093ᵃᵇˡ
+k    BM25 + MiniLM-sum-lambda-1     0.92     0.819  0.763ˡ            0.117  0.093ᵃᵇᶜᵈˡ
+l    BM25                           0.88     0.764  0.688             0.117  0.085
+2024-11-28 11:11:01,483 beir.datasets.data_loader INFO Loading Corpus...
+2024-11-28 11:11:02,569 beir.datasets.data_loader INFO Loaded 25657 TEST Documents.
+2024-11-28 11:11:02,569 beir.datasets.data_loader INFO Doc Example: {'text': 'An evolutionary recurrent network which automates the design of recurrent neural/fuzzy networks using a new evolutionary learning algorithm is proposed in this paper. This new evolutionary learning algorithm is based on a hybrid of genetic algorithm (GA) and particle swarm optimization (PSO), and is thus called HGAPSO. In HGAPSO, individuals in a new generation are created, not only by crossover and mutation operation as in GA, but also by PSO. The concept of elite strategy is adopted in HGAPSO, where the upper-half of the best-performing individuals in a population are regarded as elites. However, instead of being reproduced directly to the next generation, these elites are first enhanced. The group constituted by the elites is regarded as a swarm, and each elite corresponds to a particle within it. In this regard, the elites are enhanced by PSO, an operation which mimics the maturing phenomenon in nature. These enhanced elites constitute half of the population in the new generation, whereas the other half is generated by performing crossover and mutation operation on these enhanced elites. HGAPSO is applied to recurrent neural/fuzzy network design as follows. For recurrent neural network, a fully connected recurrent neural network is designed and applied to a temporal sequence production problem. For recurrent fuzzy network design, a Takagi-Sugeno-Kang-type recurrent fuzzy network is designed and applied to dynamic plant control. The performance of HGAPSO is compared to both GA and PSO in these recurrent networks design problems, demonstrating its superiority.', 'title': 'A hybrid of genetic algorithm and particle swarm optimization for recurrent network design'}
+2024-11-28 11:11:02,570 beir.datasets.data_loader INFO Loading Queries...
+2024-11-28 11:11:02,618 beir.datasets.data_loader INFO Loaded 1000 TEST Queries.
+2024-11-28 11:11:02,618 beir.datasets.data_loader INFO Query Example: A Direct Search Method to solve Economic Dispatch Problem with Valve-Point Effect
+2024-11-28 11:11:02,683 root INFO Activating Elasticsearch....
+2024-11-28 11:11:02,683 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:11:02,684 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:11:04,909 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:11:06,961 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:11:07,78 root INFO Activating Elasticsearch....
+2024-11-28 11:11:07,78 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:11:07,78 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:11:09,339 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:11:32,913 root INFO Starting To Rerank Top-100....
+2024-11-28 11:15:26,493 root INFO Activating Elasticsearch....
+2024-11-28 11:15:26,493 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:15:26,493 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:15:28,699 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:15:30,887 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:15:31,230 root INFO Activating Elasticsearch....
+2024-11-28 11:15:31,230 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:15:31,231 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:15:33,440 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:15:56,649 root INFO Starting To Rerank Top-100....
+2024-11-28 11:19:57,898 root INFO Activating Elasticsearch....
+2024-11-28 11:19:57,899 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:19:57,899 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:20:00,100 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:20:02,493 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:20:02,851 root INFO Activating Elasticsearch....
+2024-11-28 11:20:02,851 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:20:02,851 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:20:05,256 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:20:28,333 root INFO Starting To Rerank Top-100....
+2024-11-28 11:24:30,766 root INFO Activating Elasticsearch....
+2024-11-28 11:24:30,767 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:24:30,767 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:24:33,20 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:24:35,637 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:24:35,984 root INFO Activating Elasticsearch....
+2024-11-28 11:24:35,984 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:24:35,984 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:24:38,198 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:25:00,707 root INFO Starting To Rerank Top-100....
+2024-11-28 11:29:01,934 root INFO Activating Elasticsearch....
+2024-11-28 11:29:01,934 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:29:01,935 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:29:04,203 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:29:06,512 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:29:06,851 root INFO Activating Elasticsearch....
+2024-11-28 11:29:06,852 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:29:06,852 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:29:09,65 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:29:31,945 root INFO Starting To Rerank Top-100....
+2024-11-28 11:33:34,24 root INFO Activating Elasticsearch....
+2024-11-28 11:33:34,25 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:33:34,25 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:33:36,225 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:33:38,783 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:33:39,180 root INFO Activating Elasticsearch....
+2024-11-28 11:33:39,180 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:33:39,181 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:33:41,374 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:34:04,73 root INFO Starting To Rerank Top-100....
+2024-11-28 11:38:02,745 root INFO Activating Elasticsearch....
+2024-11-28 11:38:02,745 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:38:02,746 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:38:04,960 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:38:07,161 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:38:07,493 root INFO Activating Elasticsearch....
+2024-11-28 11:38:07,493 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:38:07,494 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:38:09,644 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:38:32,380 root INFO Starting To Rerank Top-100....
+2024-11-28 11:42:27,431 root INFO Activating Elasticsearch....
+2024-11-28 11:42:27,432 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:42:27,432 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:42:29,659 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:42:32,58 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:42:32,451 root INFO Activating Elasticsearch....
+2024-11-28 11:42:32,451 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:42:32,451 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:42:34,644 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:42:57,841 root INFO Starting To Rerank Top-100....
+2024-11-28 11:46:48,881 root INFO Activating Elasticsearch....
+2024-11-28 11:46:48,881 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:46:48,881 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:46:51,115 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:46:53,903 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:46:54,252 root INFO Activating Elasticsearch....
+2024-11-28 11:46:54,252 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:46:54,253 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:46:56,466 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:47:19,426 root INFO Starting To Rerank Top-100....
+2024-11-28 11:51:07,613 root INFO Activating Elasticsearch....
+2024-11-28 11:51:07,613 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:51:07,614 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:51:09,912 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:51:12,182 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:51:12,547 root INFO Activating Elasticsearch....
+2024-11-28 11:51:12,547 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:51:12,547 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:51:14,735 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:51:37,872 root INFO Starting To Rerank Top-100....
+2024-11-28 11:55:29,284 root INFO Activating Elasticsearch....
+2024-11-28 11:55:29,284 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:55:29,285 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:55:31,531 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:55:34,371 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 11:55:34,723 root INFO Activating Elasticsearch....
+2024-11-28 11:55:34,724 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'scidocs', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 11:55:34,724 root INFO Deleting previous Elasticsearch-Index named - scidocs
+2024-11-28 11:55:36,958 root INFO Creating fresh Elasticsearch-Index named - scidocs
+2024-11-28 11:55:59,778 root INFO Starting To Rerank Top-100....
+2024-11-28 12:00:00,786 main INFO 
+#    Model                         P@1     NDCG@3    NDCG@10      Recall@100  MAP@100
+---  ----------------------------  ------  --------  ---------  ------------  ---------
+a    BM25 + MiniLM-sum-lambda-0    0.211ᵉ  0.168ˡ    0.175ˡ            0.368  0.119ˡ
+b    BM25 + MiniLM-sum-lambda-0.1  0.211ᵉ  0.168ˡ    0.175ˡ            0.368  0.119ˡ
+c    BM25 + MiniLM-sum-lambda-0.2  0.208   0.167ˡ    0.174ˡ            0.368  0.119ˡ
+d    BM25 + MiniLM-sum-lambda-0.3  0.205   0.168ˡ    0.174ˡ            0.368  0.119ˡ
+e    BM25 + MiniLM-sum-lambda-0.4  0.202   0.167ˡ    0.174ˡ            0.368  0.118ˡ
+f    BM25 + MiniLM-sum-lambda-0.5  0.202   0.167ˡ    0.174ˡ            0.368  0.118ˡ
+g    BM25 + MiniLM-sum-lambda-0.6  0.203   0.167ˡ    0.174ˡ            0.368  0.118ˡ
+h    BM25 + MiniLM-sum-lambda-0.7  0.204   0.168ˡ    0.174ˡ            0.368  0.119ˡ
+i    BM25 + MiniLM-sum-lambda-0.8  0.205   0.168ˡ    0.174ˡ            0.368  0.119ˡ
+j    BM25 + MiniLM-sum-lambda-0.9  0.205   0.167ˡ    0.174ˡ            0.368  0.119ˡ
+k    BM25 + MiniLM-sum-lambda-1    0.206   0.167ˡ    0.174ˡ            0.368  0.119ˡ
+l    BM25                          0.190   0.156     0.165             0.368  0.112
+2024-11-28 16:14:54,839 beir.datasets.data_loader INFO Loading Corpus...
+2024-11-28 16:14:57,136 beir.datasets.data_loader INFO Loaded 171332 TEST Documents.
+2024-11-28 16:14:57,141 beir.datasets.data_loader INFO Doc Example: {'text': 'OBJECTIVE: This retrospective chart review describes the epidemiology and clinical features of 40 patients with culture-proven Mycoplasma pneumoniae infections at King Abdulaziz University Hospital, Jeddah, Saudi Arabia. METHODS: Patients with positive M. pneumoniae cultures from respiratory specimens from January 1997 through December 1998 were identified through the Microbiology records. Charts of patients were reviewed. RESULTS: 40 patients were identified, 33 (82.5%) of whom required admission. Most infections (92.5%) were community-acquired. The infection affected all age groups but was most common in infants (32.5%) and pre-school children (22.5%). It occurred year-round but was most common in the fall (35%) and spring (30%). More than three-quarters of patients (77.5%) had comorbidities. Twenty-four isolates (60%) were associated with pneumonia, 14 (35%) with upper respiratory tract infections, and 2 (5%) with bronchiolitis. Cough (82.5%), fever (75%), and malaise (58.8%) were the most common symptoms, and crepitations (60%), and wheezes (40%) were the most common signs. Most patients with pneumonia had crepitations (79.2%) but only 25% had bronchial breathing. Immunocompromised patients were more likely than non-immunocompromised patients to present with pneumonia (8/9 versus 16/31, P = 0.05). Of the 24 patients with pneumonia, 14 (58.3%) had uneventful recovery, 4 (16.7%) recovered following some complications, 3 (12.5%) died because of M pneumoniae infection, and 3 (12.5%) died due to underlying comorbidities. The 3 patients who died of M pneumoniae pneumonia had other comorbidities. CONCLUSION: our results were similar to published data except for the finding that infections were more common in infants and preschool children and that the mortality rate of pneumonia in patients with comorbidities was high.', 'title': 'Clinical features of culture-proven Mycoplasma pneumoniae infections at King Abdulaziz University Hospital, Jeddah, Saudi Arabia'}
+2024-11-28 16:14:57,142 beir.datasets.data_loader INFO Loading Queries...
+2024-11-28 16:14:57,232 beir.datasets.data_loader INFO Loaded 50 TEST Queries.
+2024-11-28 16:14:57,232 beir.datasets.data_loader INFO Query Example: what is the origin of COVID-19
+2024-11-28 16:14:57,232 root INFO Activating Elasticsearch....
+2024-11-28 16:14:57,232 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 16:14:57,233 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 16:14:57,234 root ERROR Unable to create Index in Elastic Search. Reason: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f40cec7d340>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f40cec7d340>: Failed to establish a new connection: [Errno 111] Connection refused)
+2024-11-28 16:14:59,237 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 16:14:59,241 root ERROR Unable to create Index in Elastic Search. Reason: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f40c2362a30>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f40c2362a30>: Failed to establish a new connection: [Errno 111] Connection refused)
+2024-11-28 16:15:01,846 sentence_transformers.cross_encoder.CrossEncoder INFO Use pytorch device: cuda
+2024-11-28 16:15:02,109 root INFO Activating Elasticsearch....
+2024-11-28 16:15:02,109 root INFO Elastic Search Credentials: {'hostname': 'localhost', 'index_name': 'trec-covid', 'keys': {'title': 'title', 'body': 'txt'}, 'timeout': 100, 'retry_on_timeout': True, 'maxsize': 24, 'number_of_shards': 'default', 'language': 'english'}
+2024-11-28 16:15:02,109 root INFO Deleting previous Elasticsearch-Index named - trec-covid
+2024-11-28 16:15:02,111 root ERROR Unable to create Index in Elastic Search. Reason: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f40bf3024c0>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f40bf3024c0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2024-11-28 16:15:04,113 root INFO Creating fresh Elasticsearch-Index named - trec-covid
+2024-11-28 16:15:04,117 root ERROR Unable to create Index in Elastic Search. Reason: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f40bf302a30>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f40bf302a30>: Failed to establish a new connection: [Errno 111] Connection refused)
