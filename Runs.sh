@@ -1,0 +1,1 @@
+python3 run_model_sum_weights.py --dataset 'scidocs' --ablation 'remove' --alfa 0.8 --device 'cuda:1' --mod 'cos' --model_name 'Llama-2-7b' --model_base_path 'zyznull/RankingGPT-llama2-7b' --model_vector_plus_path 'nlpie/Llama2-MedTuned-7b' --model_vector_minus_path 'meta-llama/Llama-2-7b-hf'   
