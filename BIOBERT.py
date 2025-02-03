@@ -119,11 +119,6 @@ results_dic = {}
 for r in [1]:
     for g in [1]:
 
-# Modelli: 
-# Funzionano:
-# distilbert/distilbert-base-uncased
-# nlpie/bio-distilbert-uncased
-# sentence-transformers/msmarco-distilbert-base-dot-prod-v3
 
 
 
