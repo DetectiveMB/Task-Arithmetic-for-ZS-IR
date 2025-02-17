@@ -5,7 +5,6 @@ This repository contains the code for the experiments of the paper "Investigatin
 The repository is organized as follows:
 
 - `Scripts`: the code used to run the experiments, described in detail below.
-- `Results`: the performance obtained by our approach
 
 
 ## Downloading and sampling the original datasets
