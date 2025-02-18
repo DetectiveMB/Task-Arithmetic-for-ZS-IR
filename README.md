@@ -16,4 +16,7 @@ The datasets are publicy available at:
 
 ## Task Vector
 
-
+- `Scripts/utils.py` and `Scripts/llama_ir.py`: definition of basic function for applying Task Arithmetic and Llama on IR tasks
+- `Scripts/Run_model_sum_weights_miracl.py`: main scripts with the code for running experiments on MT5 and MIRACL
+- `Scripts/run_model_sum_weights.py`: main scripts with the code for running experiments and ablation about layer impact on BERI with DistilBERT, RoBERTa, T5 and LLama.
+- `Scripts/Value_lambda.py`: the code used for ablation on the scaling factor on SciFact and NFCorpus development sets
