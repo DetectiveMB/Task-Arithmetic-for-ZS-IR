@@ -7,7 +7,7 @@ The repository is organized as follows:
 - `Scripts`: the code used to run the experiments, described in detail below.
 
 
-## Downloading and sampling the original datasets
+## Downloading the datasets used for the evaluation phase
 
 The datasets are publicy available at: 
 <a href="url">[BEIR](https://github.com/beir-cellar/beir)</a> for Scientific and Biomedical datasets and GermanQuad;
