@@ -1,6 +1,7 @@
 # Investigating Task Arithmetic for Zero-Shot Information Retrieval
 
 This repository contains the code for the experiments of the paper "Investigating Task Arithmetic for Zero-Shot Information Retrieval" accepted at SIGIR 2025.
+**https://doi.org/10.1145/3726302.3730216**
 
 The repository is organized as follows:
 
